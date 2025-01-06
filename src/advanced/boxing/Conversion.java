@@ -1,8 +1,5 @@
 package advanced.boxing;
 
-import com.sun.corba.se.impl.orbutil.CorbaResourceUtil;
-import org.junit.Test;
-
 /**
  * @author ：caihuaxin
  * @version ：JDK1.8
@@ -11,7 +8,6 @@ import org.junit.Test;
  * @month_name ：12月
  */
 public class Conversion {
-    @Test
     public void stringConversionBase(){
         String str="true";
         Character[] c = new Character[str.length()];
@@ -23,7 +19,6 @@ public class Conversion {
         Integer.toString(i);
     }
 
-    @Test
     public void test(){
         Integer i = 300;
         Integer j = 300;

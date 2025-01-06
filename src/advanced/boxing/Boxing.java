@@ -1,6 +1,5 @@
 package advanced.boxing;
 
-import org.junit.Test;
 
 /**
  * @author ：caihuaxin
@@ -13,7 +12,6 @@ public class Boxing {
     /**
      * 装箱
      */
-    @Test
     public void boxingInteger() {
         int i=10;
         //装箱
@@ -23,7 +21,6 @@ public class Boxing {
         Integer e=i;
     }
 
-    @Test
     public void boxingLong() {
         long l = 10L;
         //装箱
@@ -33,7 +30,6 @@ public class Boxing {
         Long e = l;
     }
 
-    @Test
     public void boxingFloat() {
         float f = 10.13f;
         //装箱
@@ -42,7 +38,6 @@ public class Boxing {
         //自动装箱
         Float e = f;
     }
-    @Test
     public void boxingDouble() {
         double d = 10.30;
         //装箱
@@ -51,7 +46,6 @@ public class Boxing {
         //自动装箱
         Double e = d;
     }
-    @Test
     public void boxingBoolean() {
         boolean b = true;
         //装箱
@@ -60,7 +54,6 @@ public class Boxing {
         //自动装箱
         Boolean e = b;
     }
-    @Test
     public void boxingCharacter() {
         char c = 'a';
         //装箱
@@ -69,7 +62,6 @@ public class Boxing {
         //自动装箱
         Character e = c;
     }
-    @Test
     public void boxingByte() {
         byte b = 10;
         //装箱
@@ -78,7 +70,6 @@ public class Boxing {
         //自动装箱
         Byte e = b;
     }
-    @Test
     public void boxingShort() {
         short s = 10;
         //装箱
