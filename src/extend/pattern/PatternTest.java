@@ -3,6 +3,12 @@ package extend.pattern;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * @author 爱编程的杰尼龟
+ * @version 1.0.0
+ * @doc 正则匹配
+ * @date 2025/01/08
+ */
 public class PatternTest {
     public static void main(String[] args) {
         String pattern="(\\d{3})-(\\d{3})-(\\d{4})";
