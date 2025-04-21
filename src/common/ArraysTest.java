@@ -29,5 +29,12 @@ public class ArraysTest {
 //        // 创建并行流
 //        Stream<String> parallelStream = StreamSupport.stream(spliterator, true);
 //        parallelStream.forEach(System.out::println); // 输出顺序不确定（并行）
+        System.out.println(Arrays.compare(numbers, new int[]{9, 3, 5, 9}));//-1，0，1
+
+        long[] a = {1L, 2L, 3L, 4L};
+        long[] b = {1L, 2L, 9L, 4L};
+
+// 比较整个数组范围
+        int result = Arrays.mismatch(a, 0, 4, b, 0, 4); // 返回 2
     }
 }
